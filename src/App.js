@@ -15,6 +15,7 @@ import StarRating from "./components/StarRating";
 import Linkedinque from "./components/Linkedinque";
 import Throttling from "./components/Throttling";
 import ZeptoChallenge from "./components/ZeptoChallenge";
+import Jira from './components/Jira/Jira';
 // import Time from "./components/time";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       {/* <h1>Hello CodeSandbox</h1> */}
       {/* <Progressbar /> */}
       {/* <Time /> */}
-
+       <Jira/>
       {/* <TicTacToe /> */}
       {/* <ChorPolice /> */}
       {/* <Debouncing /> */}
@@ -36,7 +37,7 @@ function App() {
       {/* <StarRating /> */}
       {/* <Linkedinque /> */}
       {/* <Throttling /> */}
-      <ZeptoChallenge />
+      {/* <ZeptoChallenge /> */}
     </div>
   );
 }
