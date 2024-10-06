@@ -16,6 +16,8 @@ import Linkedinque from "./components/Linkedinque";
 import Throttling from "./components/Throttling";
 import ZeptoChallenge from "./components/ZeptoChallenge";
 import Jira from './components/Jira/Jira';
+import Toast from './components/Toast/Toast';
+import Booking from './components/BookingSystem';
 // import Time from "./components/time";
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
       {/* <h1>Hello CodeSandbox</h1> */}
       {/* <Progressbar /> */}
       {/* <Time /> */}
-       <Jira/>
+       {/* <Jira/> */}
       {/* <TicTacToe /> */}
       {/* <ChorPolice /> */}
       {/* <Debouncing /> */}
@@ -38,6 +40,8 @@ function App() {
       {/* <Linkedinque /> */}
       {/* <Throttling /> */}
       {/* <ZeptoChallenge /> */}
+      {/* <Toast/> */}
+      <Booking/>
     </div>
   );
 }

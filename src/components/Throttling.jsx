@@ -1,4 +1,5 @@
 const Throttling = () => {
+  
     const myThrottle = (fn, delay) => {
       let lastInvoked = 0;
       return function (...args) {

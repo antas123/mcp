@@ -1,4 +1,5 @@
 const Debouncing = () => {
+  
     const debounced = (fn, delay) => {
       let timer;
       return function (...args) {
@@ -8,9 +9,11 @@ const Debouncing = () => {
         }, delay);
       };
     };
+
     const handleChange = (e) => {
       alert(e.target.value);
     };
+
     const Debounce = debounced(handleChange, 1000);
   
     return (
